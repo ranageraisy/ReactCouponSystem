@@ -1,0 +1,167 @@
+body {
+  background-color: #5cc1b3;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+p {
+  font-size: large;
+}
+
+.image-distance {
+  margin: 2px;
+  padding: 2px;
+}
+
+.box {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px 10px #888888;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.one-line {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+form {
+  text-align: start;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+form span {
+  font-weight: 700;
+  color: red;
+}
+
+form .button-app {
+  text-align: center;
+}
+
+input[type=text], input[type=date], input[type=datetime-local], input[type=number], input[type=email], input[type=password] {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 4px 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+input[type=number]:disabled {
+  font-weight: 700;
+
+  background-color: #88888880;
+}
+
+label {
+  margin-left: 2px;
+  font-weight: 500;
+  display: inline-block;
+  display: inline-block;
+  text-align: start;
+}
+
+.button-app {
+  margin: 5px;
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border: 2px solid #4a9978;
+  border-radius: 5px;
+}
+
+.button-app-default {
+  margin: 5px;
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border: 2px solid #4a9978;
+  border-radius: 5px;
+}
+
+.button-app-danger {
+  margin: 5px;
+  width: 100%;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border: 2px solid #091f16;
+  border-radius: 5px;
+}
+
+.button-app:hover {
+  background-color: rgb(84, 129, 99);
+  color: white;
+}
+
+.button-app-default:hover {
+  background-color: #727572;
+  color: white;
+}
+
+.button-app-danger:hover {
+  background-color: #4a9978;
+  color: white;
+}
+
+.button-app:disabled {
+  background-color: 4a9978(172, 175, 173);
+  color: white;
+}
+
+.span-errors {
+  color: rgb(226, 17, 17);
+  font-weight: bold;
+}
+
+.full {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background: 4a9978;
+  padding: 3px;
+}
+
+.empty {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  background: tomato;
+  padding: 3px;
+}

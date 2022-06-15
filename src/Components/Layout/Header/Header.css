@@ -1,0 +1,11 @@
+.Header {
+	background-color: #fdffcd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height:100%;
+    width: 100%;
+    font-family: Lucida Handwriting;
+    font-size: xx-large;
+}

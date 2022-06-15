@@ -1,0 +1,7 @@
+.Menu {
+    background-color: #ffebbb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}

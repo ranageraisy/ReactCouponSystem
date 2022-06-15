@@ -1,0 +1,15 @@
+.CustomLink {
+	margin-bottom: 15px;
+    font-size: x-large;
+    text-decoration: none;
+    font-family: Garamond;
+}
+
+
+.CustomLink .active {
+    color: black;
+	border-bottom: 3px;
+    font-weight: 700;
+    font-size: xx-large;
+    text-decoration: dashed;
+}
